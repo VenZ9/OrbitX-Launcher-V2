@@ -1,0 +1,73 @@
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Android
+*.iml
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Gradle
+.gradle/
+build/
+
+# Local properties
+local.properties
+
+# Keystore files
+*.jks
+*.keystore
+
+# Signing files
+*.pem
+*.pk8
+
+# Logs
+*.log
+
+# Android Studio
+*.iml
+.idea/
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+
+# Environment files
+.env
+.env.local
+.env.*.local
+
+# Node (if any)
+node_modules/
+
+# Build outputs
+*.apk
+*.aab
+output/
+
+# IDE
+.idea/
+*.swp
+*.swo
+
+# Test outputs
+*/test-results/
+
+# Cache
+*.cache
+
+# Temporary files
+*.tmp
+*.temp
