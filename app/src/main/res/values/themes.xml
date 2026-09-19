@@ -1,0 +1,136 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- OrbitX Theme - Dark Theme -->
+    <style name="Theme.OrbitX" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Primary Colors -->
+        <item name="colorPrimary">@color/orbitx_primary</item>
+        <item name="colorPrimaryContainer">@color/orbitx_primary</item>
+        <item name="colorPrimaryVariant">@color/color_primary_variant</item>
+        <item name="colorOnPrimary">@color/color_on_primary</item>
+        <item name="colorOnPrimaryContainer">@color/color_on_primary</item>
+        
+        <!-- Secondary Colors -->
+        <item name="colorSecondary">@color/orbitx_secondary</item>
+        <item name="colorSecondaryContainer">@color/orbitx_secondary</item>
+        <item name="colorSecondaryVariant">@color/color_secondary_variant</item>
+        <item name="colorOnSecondary">@color/color_on_secondary</item>
+        <item name="colorOnSecondaryContainer">@color/color_on_secondary</item>
+        
+        <!-- Background Colors -->
+        <item name="android:colorBackground">@color/orbitx_background</item>
+        <item name="colorBackground">@color/orbitx_background</item>
+        <item name="android:windowBackground">@color/orbitx_background</item>
+        <item name="windowBackground">@color/orbitx_background</item>
+        
+        <!-- Surface Colors -->
+        <item name="colorSurface">@color/orbitx_surface</item>
+        <item name="colorSurfaceVariant">@color/color_surface_dark</item>
+        <item name="colorOnSurface">@color/orbitx_text</item>
+        <item name="colorOnSurfaceVariant">@color/color_text_secondary</item>
+        
+        <!-- Error Colors -->
+        <item name="colorError">@color/orbitx_error</item>
+        <item name="colorErrorContainer">@color/color_error_dark</item>
+        <item name="colorOnError">@color/color_on_error</item>
+        <item name="colorOnErrorContainer">@color/color_on_error</item>
+        
+        <!-- Text Colors -->
+        <item name="android:textColorPrimary">@color/orbitx_text</item>
+        <item name="android:textColorSecondary">@color/orbitx_text_secondary</item>
+        <item name="android:textColorHint">@color/color_text_hint</item>
+        <item name="android:textColor">@color/orbitx_text</item>
+        
+        <!-- Status Bar -->
+        <item name="android:statusBarColor">@color/color_status_bar</item>
+        <item name="android:windowLightStatusBar">false</item>
+        
+        <!-- Navigation Bar -->
+        <item name="android:navigationBarColor">@color/color_navigation_bar</item>
+        <item name="android:windowLightNavigationBar">false</item>
+        
+        <!-- Window -->
+        <item name="android:windowTranslucentStatus">false</item>
+        <item name="android:windowTranslucentNavigation">false</item>
+        <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+        
+        <!-- Edge to Edge -->
+        <item name="android:windowLayoutInDisplayCutoutMode">shortEdges</item>
+        
+        <!-- Font -->
+        <item name="android:fontFamily">sans-serif</item>
+    </style>
+
+    <!-- OrbitX Theme - Launch Activity (Full Screen) -->
+    <style name="Theme.OrbitX.Launch" parent="Theme.OrbitX">
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowActionBar">false</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowTranslucentStatus">true</item>
+        <item name="android:windowTranslucentNavigation">true</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:navigationBarColor">@android:color/transparent</item>
+    </style>
+
+    <!-- OrbitX Theme - Dialog -->
+    <style name="Theme.OrbitX.Dialog" parent="Theme.Material3.DayNight.Dialog">
+        <item name="colorPrimary">@color/orbitx_primary</item>
+        <item name="colorOnPrimary">@color/color_on_primary</item>
+        <item name="colorSurface">@color/orbitx_surface</item>
+        <item name="colorOnSurface">@color/orbitx_text</item>
+        <item name="android:textColorPrimary">@color/orbitx_text</item>
+        <item name="android:textColorSecondary">@color/orbitx_text_secondary</item>
+    </style>
+
+    <!-- OrbitX Theme - Bottom Sheet -->
+    <style name="Theme.OrbitX.BottomSheet" parent="Theme.Design.Light.BottomSheetDialog">
+        <item name="colorPrimary">@color/orbitx_primary</item>
+        <item name="colorPrimaryVariant">@color/color_primary_variant</item>
+        <item name="colorOnPrimary">@color/color_on_primary</item>
+        <item name="colorSecondary">@color/orbitx_secondary</item>
+        <item name="colorOnSecondary">@color/color_on_secondary</item>
+        <item name="android:colorBackground">@color/orbitx_surface</item>
+        <item name="android:textColorPrimary">@color/orbitx_text</item>
+        <item name="android:textColorSecondary">@color/orbitx_text_secondary</item>
+        <item name="bottomSheetStyle">@style/Widget.OrbitX.BottomSheet</item>
+    </style>
+
+    <!-- OrbitX Theme - Light Theme -->
+    <style name="Theme.OrbitX.Light" parent="Theme.Material3.Light.NoActionBar">
+        <item name="colorPrimary">@color/orbitx_primary</item>
+        <item name="colorPrimaryContainer">@color/orbitx_primary</item>
+        <item name="colorOnPrimary">@color/color_on_primary</item>
+        <item name="colorSecondary">@color/orbitx_secondary</item>
+        <item name="colorOnSecondary">@color/color_on_secondary</item>
+        <item name="android:colorBackground">#FFFFFF</item>
+        <item name="colorBackground">#FFFFFF</item>
+        <item name="colorSurface">#FFFFFF</item>
+        <item name="colorOnSurface">#000000</item>
+        <item name="android:textColorPrimary">#000000</item>
+        <item name="android:textColorSecondary">#606060</item>
+        <item name="android:statusBarColor">#FFFFFF</item>
+        <item name="android:windowLightStatusBar">true</item>
+        <item name="android:navigationBarColor">#FFFFFF</item>
+        <item name="android:windowLightNavigationBar">true</item>
+    </style>
+
+    <!-- OrbitX Theme - Splash -->
+    <style name="Theme.OrbitX.Splash" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="android:windowBackground">@drawable/splash_background</item>
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowActionBar">false</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowTranslucentStatus">true</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+    </style>
+
+    <!-- AppCompat Theme for older devices -->
+    <style name="Theme.OrbitX.AppCompat" parent="Theme.AppCompat.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/orbitx_primary</item>
+        <item name="colorPrimaryDark">@color/color_primary_variant</item>
+        <item name="colorAccent">@color/orbitx_secondary</item>
+        <item name="android:colorBackground">@color/orbitx_background</item>
+        <item name="android:textColorPrimary">@color/orbitx_text</item>
+        <item name="android:textColorSecondary">@color/orbitx_text_secondary</item>
+        <item name="android:statusBarColor">@color/color_status_bar</item>
+        <item name="android:windowLightStatusBar">false</item>
+    </style>
+</resources>

@@ -1,0 +1,321 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">OrbitX Launcher</string>
+    <string name="app_version">1.0.0</string>
+    <string name="welcome">Welcome to OrbitX</string>
+    <string name="minecraft_java">Minecraft: Java Edition</string>
+    <string name="play">Play</string>
+    <string name="install">Install</string>
+    <string name="settings">Settings</string>
+    <string name="mods">Mods</string>
+    <string name="resource_packs">Resource Packs</string>
+    <string name="shaders">Shaders</string>
+    <string name="accounts">Accounts</string>
+    <string name="news">News</string>
+    <string name="about">About</string>
+    <string name="credits">Credits</string>
+    <string name="search">Search</string>
+    <string name="download">Download</string>
+    <string name="browse">Browse</string>
+    <string name="installed">Installed</string>
+    <string name="available">Available</string>
+    <string name="updates">Updates</string>
+    <string name="remove">Remove</string>
+    <string name="enable">Enable</string>
+    <string name="disable">Disable</string>
+    <string name="apply">Apply</string>
+    <string name="cancel">Cancel</string>
+    <string name="ok">OK</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="back">Back</string>
+    <string name="refresh">Refresh</string>
+    <string name="loading">Loading…</string>
+    <string name="no_items">No items found</string>
+    <string name="no_internet">No internet connection</string>
+    <string name="error">Error</string>
+    <string name="success">Success</string>
+    <string name="failed">Failed</string>
+    <string name="not_available">Not available</string>
+    <string name="version">Version</string>
+    <string name="size">Size</string>
+    <string name="author">Author</string>
+    <string name="description">Description</string>
+    <string name="category">Category</string>
+    <string name="downloads">Downloads</string>
+    <string name="last_updated">Last updated</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="login">Login</string>
+    <string name="logout">Logout</string>
+    <string name="add_account">Add Account</string>
+    <string name="select_version">Select Version</string>
+    <string name="java_required">Java is required</string>
+    <string name="java_version">Java Version</string>
+    <string name="memory_allocation">Memory Allocation</string>
+    <string name="jvm_args">JVM Arguments</string>
+    <string name="game_directory">Game Directory</string>
+    <string name="controls">Controls</string>
+    <string name="touch_controls">Touch Controls</string>
+    <string name="mouse_controls">Mouse Controls</string>
+    <string name="keyboard_controls">Keyboard Controls</string>
+    <string name="customize">Customize</string>
+    <string name="sensitivity">Sensitivity</string>
+    <string name="opacity">Opacity</string>
+    <string name="scale">Scale</string>
+    <string name="position">Position</string>
+    <string name="reset">Reset</string>
+    <string name="save">Save</string>
+    <string name="launch">Launch</string>
+    <string name="preparing">Preparing…</string>
+    <string name="extracting">Extracting…</string>
+    <string name="verifying">Verifying…</string>
+    <string name="launching">Launching…</string>
+    <string name="game_running">Game is running</string>
+    <string name="wait_for_exit">Please wait for the game to exit</string>
+    <string name="force_close">Force Close</string>
+    <string name="performance">Performance</string>
+    <string name="graphics">Graphics</string>
+    <string name="audio">Audio</string>
+    <string name="language">Language</string>
+    <string name="theme">Theme</string>
+    <string name="light">Light</string>
+    <string name="dark">Dark</string>
+    <string name="system">System</string>
+    <string name="fullscreen">Fullscreen</string>
+    <string name="windowed">Windowed</string>
+    <string name="resolution">Resolution</string>
+    <string name="fps">FPS</string>
+    <string name="fps_counter">Show FPS Counter</string>
+    <string name="vsync">Enable VSync</string>
+    <string name="render_distance">Render Distance</string>
+    <string name="graphics_quality">Graphics Quality</string>
+    <string name="fast">Fast</string>
+    <string name="fancy">Fancy</string>
+    <string name="smooth_lighting">Smooth Lighting</string>
+    <string name="entity_shadows">Entity Shadows</string>
+    <string name="clouds">Clouds</string>
+    <string name="particles">Particles</string>
+    <string name="gui_scale">GUI Scale</string>
+    <string name="auto">Auto</string>
+    <string name="small">Small</string>
+    <string name="normal">Normal</string>
+    <string name="large">Large</string>
+    <string name="master_volume">Master Volume</string>
+    <string name="music_volume">Music Volume</string>
+    <string name="sound_volume">Sound Volume</string>
+    <string name="weather_volume">Weather Volume</string>
+    <string name="block_volume">Block Volume</string>
+    <string name="host_volume">Host Volume</string>
+    <string name="mute">Mute</string>
+    <string name="unmute">Unmute</string>
+
+    <!-- Credits -->
+    <string name="credits_title">Open Source Credits</string>
+    <string name="credits_description">OrbitX Launcher is built upon the work of these amazing open source projects:</string>
+    <string name="pojav_credit">Pojav Launcher - Open source Minecraft: Java Edition launcher for Android</string>
+    <string name="zalith_credit">Zalith Launcher - Feature-rich Minecraft launcher with touch controls</string>
+    <string name="fold_craft_credit">Fold Craft Launcher - Minecraft launcher optimized for foldable devices</string>
+    <string name="mojo_credit">Mojo Launcher - Modern Minecraft launcher with additional features</string>
+    <string name="special_thanks">Special thanks to the Minecraft community and all contributors</string>
+
+    <!-- Mod Browser -->
+    <string name="mod_name">Mod Name</string>
+    <string name="mod_version">Mod Version</string>
+    <string name="mod_mcversion">Minecraft Version</string>
+    <string name="mod_downloads">Downloads</string>
+    <string name="mod_category">Category</string>
+    <string name="mod_search_hint">Search mods…</string>
+    <string name="mod_filter">Filter</string>
+    <string name="mod_sort">Sort</string>
+    <string name="mod_sort_popular">Most Popular</string>
+    <string name="mod_sort_recent">Most Recent</string>
+    <string name="mod_sort_rating">Top Rated</string>
+    <string name="mod_sort_name">Name (A-Z)</string>
+
+    <!-- Resource Pack Browser -->
+    <string name="resource_pack_name">Resource Pack Name</string>
+    <string name="resource_pack_resolution">Resolution</string>
+    <string name="resource_pack_author">Author</string>
+    <string name="resource_pack_search_hint">Search resource packs…</string>
+
+    <!-- Shader Browser -->
+    <string name="shader_name">Shader Name</string>
+    <string name="shader_version">Shader Version</string>
+    <string name="shader_compatibility">Compatibility</string>
+    <string name="shader_search_hint">Search shaders…</string>
+
+    <!-- Game Launch -->
+    <string name="select_profile">Select Profile</string>
+    <string name="create_profile">Create Profile</string>
+    <string name="profile_name">Profile Name</string>
+    <string name="profile_mcversion">Minecraft Version</string>
+    <string name="profile_java_path">Java Path</string>
+    <string name="profile_jvm_args">JVM Arguments</string>
+    <string name="profile_game_dir">Game Directory</string>
+    <string name="profile_mods">Mods</string>
+    <string name="profile_resource_packs">Resource Packs</string>
+    <string name="profile_shaders">Shaders</string>
+    <string name="delete_profile">Delete Profile</string>
+    <string name="confirm_delete">Are you sure you want to delete this profile?</string>
+
+    <!-- Touch Controls -->
+    <string name="control_joystick">Joystick</string>
+    <string name="control_jump">Jump</string>
+    <string name="control_sneak">Sneak</string>
+    <string name="control_attack">Attack</string>
+    <string name="control_use">Use</string>
+    <string name="control_inventory">Inventory</string>
+    <string name="control_drop">Drop</string>
+    <string name="control_sprint">Sprint</string>
+    <string name="control_fly">Fly</string>
+    <string name="control_hotbar">Hotbar</string>
+    <string name="control_quick_craft">Quick Craft</string>
+    <string name="control_chat">Chat</string>
+    <string name="control_command">Command</string>
+    <string name="control_pause">Pause</string>
+    <string name="control_settings">Settings</string>
+    <string name="control_customize_hint">Long press to customize</string>
+
+    <!-- Error Messages -->
+    <string name="error_no_java">Java runtime not found. Please install a compatible Java version.</string>
+    <string name="error_no_storage">Insufficient storage space</string>
+    <string name="error_download_failed">Download failed. Please check your internet connection.</string>
+    <string name="error_extraction_failed">Extraction failed. The file may be corrupted.</string>
+    <string name="error_launch_failed">Failed to launch the game. Please check the logs.</string>
+    <string name="error_no_version">No Minecraft version selected</string>
+    <string name="error_invalid_credentials">Invalid username or password</string>
+    <string name="error_auth_failed">Authentication failed</string>
+    <string name="error_version_not_installed">Selected version is not installed</string>
+    <string name="error_assets_missing">Game assets are missing. Please reinstall the game.</string>
+
+    <!-- Success Messages -->
+    <string name="success_installed">Successfully installed</string>
+    <string name="success_updated">Successfully updated</string>
+    <string name="success_removed">Successfully removed</string>
+    <string name="success_applied">Successfully applied</string>
+    <string name="success_saved">Successfully saved</string>
+
+    <!-- Warnings -->
+    <string name="warning_experimental">This feature is experimental and may not work correctly</string>
+    <string name="warning_unsupported">This version may not be fully supported</string>
+    <string name="warning_mods_incompatible">Some mods may be incompatible with the selected version</string>
+    <string name="warning_storage_low">Storage space is running low</string>
+
+    <!-- Tooltips -->
+    <string name="tooltip_refresh">Pull to refresh</string>
+    <string name="tooltip_download">Tap to download</string>
+    <string name="tooltip_install">Tap to install</string>
+    <string name="tooltip_remove">Tap to remove</string>
+    <string name="tooltip_customize">Tap and hold to customize</string>
+    <string name="tooltip_launch">Tap to launch the game</string>
+
+    <!-- Placeholders -->
+    <string name="placeholder_username">Enter your username</string>
+    <string name="placeholder_password">Enter your password</string>
+    <string name="placeholder_search">Search…</string>
+    <string name="placeholder_jvm_args">-Xmx1G -Xms512M</string>
+
+    <!-- Actions -->
+    <string name="action_edit">Edit</string>
+    <string name="action_delete">Delete</string>
+    <string name="action_share">Share</string>
+    <string name="action_copy">Copy</string>
+    <string name="action_rename">Rename</string>
+    <string name="action_move">Move</string>
+    <string name="action_create">Create</string>
+    <string name="action_import">Import</string>
+    <string name="action_export">Export</string>
+
+    <!-- File Types -->
+    <string name="file_type_mod">Mod (.jar)</string>
+    <string name="file_type_resource_pack">Resource Pack (.zip)</string>
+    <string name="file_type_shader">Shader (.zip)</string>
+    <string name="file_type_world">World</string>
+    <string name="file_type_screenshot">Screenshot</string>
+
+    <!-- Network -->
+    <string name="network_wifi">Wi-Fi</string>
+    <string name="network_mobile">Mobile Data</string>
+    <string name="network_offline">Offline</string>
+    <string name="network_wifi_only">Wi-Fi Only</string>
+    <string name="network_any">Any Connection</string>
+
+    <!-- Updates -->
+    <string name="update_available">Update Available</string>
+    <string name="update_now">Update Now</string>
+    <string name="update_later">Later</string>
+    <string name="update_ignore">Ignore</string>
+    <string name="update_checking">Checking for updates…</string>
+    <string name="update_none">No updates available</string>
+    <string name="update_downloading">Downloading update…</string>
+    <string name="update_installed">Update installed</string>
+
+    <!-- First Launch -->
+    <string name="welcome_title">Welcome to OrbitX</string>
+    <string name="welcome_subtitle">The ultimate Minecraft: Java Edition launcher for Android</string>
+    <string name="welcome_description">OrbitX provides a seamless experience to play Minecraft: Java Edition on your mobile device with full mod, resource pack, and shader support.</string>
+    <string name="welcome_get_started">Get Started</string>
+    <string name="welcome_skip">Skip</string>
+    <string name="welcome_step_1">Install Java</string>
+    <string name="welcome_step_2">Install Minecraft</string>
+    <string name="welcome_step_3">Customize</string>
+    <string name="welcome_step_4">Play</string>
+
+    <!-- Tutorial -->
+    <string name="tutorial_title">Tutorial</string>
+    <string name="tutorial_skip">Skip Tutorial</string>
+    <string name="tutorial_next">Next</string>
+    <string name="tutorial_prev">Previous</string>
+    <string name="tutorial_finish">Finish</string>
+
+    <!-- Donations (Optional) -->
+    <string name="support_development">Support Development</string>
+    <string name="donate">Donate</string>
+    <string name="donate_description">Help support the continued development of OrbitX Launcher</string>
+
+    <!-- Legal -->
+    <string name="privacy_policy">Privacy Policy</string>
+    <string name="terms_of_service">Terms of Service</string>
+    <string name="license">License</string>
+    <string name="open_source_license">Open Source License</string>
+
+    <!-- About -->
+    <string name="about_description">OrbitX Launcher is an open source Minecraft: Java Edition launcher for Android devices. It provides a complete gaming experience with support for mods, resource packs, shaders, and custom controls.</string>
+    <string name="about_version">Version %s</string>
+    <string name="about_build">Build %s</string>
+    <string name="about_website">Website</string>
+    <string name="about_github">GitHub</string>
+    <string name="about_discord">Discord</string>
+    <string name="about_twitter">Twitter</string>
+
+    <!-- Rate App -->
+    <string name="rate_app">Rate App</string>
+    <string name="rate_app_message">If you enjoy using OrbitX Launcher, please consider rating it on the Play Store!</string>
+    <string name="rate_now">Rate Now</string>
+    <string name="rate_later">Maybe Later</string>
+    <string name="rate_never">Never Ask Again</string>
+
+    <!-- Share -->
+    <string name="share_app">Share App</string>
+    <string name="share_message">Check out OrbitX Launcher - the ultimate Minecraft: Java Edition launcher for Android! %s</string>
+
+    <!-- Feedback -->
+    <string name="feedback">Feedback</string>
+    <string name="report_issue">Report Issue</string>
+    <string name="suggest_feature">Suggest Feature</string>
+    <string name="feedback_message">Your feedback helps improve OrbitX Launcher</string>
+
+    <!-- Notifications -->
+    <string name="notification_download_complete">Download Complete</string>
+    <string name="notification_download_failed">Download Failed</string>
+    <string name="notification_update_available">Update Available</string>
+    <string name="notification_channel_general">General</string>
+    <string name="notification_channel_downloads">Downloads</string>
+    <string name="notification_channel_updates">Updates</string>
+
+    <!-- Shortcuts -->
+    <string name="shortcut_play">Play Minecraft</string>
+    <string name="shortcut_mods">Manage Mods</string>
+    <string name="shortcut_settings">Settings</string>
+</resources>

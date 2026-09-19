@@ -1,0 +1,378 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base Widget Styles -->
+    <style name="Widget.OrbitX" parent="Widget.Material3">
+        <item name="android:fontFamily">sans-serif</item>
+    </style>
+
+    <!-- TextView Styles -->
+    <style name="Widget.OrbitX.TextView" parent="Widget.OrbitX">
+        <item name="android:textColor">@color/orbitx_text</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:fontFamily">sans-serif</item>
+    </style>
+
+    <style name="Widget.OrbitX.TextView.Primary" parent="Widget.OrbitX.TextView">
+        <item name="android:textColor">@color/orbitx_text</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+    </style>
+
+    <style name="Widget.OrbitX.TextView.Secondary" parent="Widget.OrbitX.TextView">
+        <item name="android:textColor">@color/orbitx_text_secondary</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <style name="Widget.OrbitX.TextView.Hint" parent="Widget.OrbitX.TextView">
+        <item name="android:textColor">@color/color_text_hint</item>
+        <item name="android:textSize">12sp</item>
+    </style>
+
+    <style name="Widget.OrbitX.TextView.Title" parent="Widget.OrbitX.TextView">
+        <item name="android:textColor">@color/orbitx_text</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:fontFamily">sans-serif-bold</item>
+    </style>
+
+    <style name="Widget.OrbitX.TextView.Subtitle" parent="Widget.OrbitX.TextView">
+        <item name="android:textColor">@color/orbitx_text_secondary</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <!-- Button Styles -->
+    <style name="Widget.OrbitX.Button" parent="Widget.Material3.Button">
+        <item name="android:backgroundTint">@color/orbitx_primary</item>
+        <item name="android:textColor">@color/color_on_primary</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+        <item name="cornerRadius">8dp</item>
+    </style>
+
+    <style name="Widget.OrbitX.Button.Primary" parent="Widget.OrbitX.Button">
+        <item name="android:backgroundTint">@color/orbitx_primary</item>
+        <item name="android:textColor">@color/color_on_primary</item>
+    </style>
+
+    <style name="Widget.OrbitX.Button.Secondary" parent="Widget.OrbitX.Button">
+        <item name="android:backgroundTint">@color/orbitx_secondary</item>
+        <item name="android:textColor">@color/color_on_secondary</item>
+    </style>
+
+    <style name="Widget.OrbitX.Button.Outlined" parent="Widget.Material3.Button.OutlinedButton">
+        <item name="android:textColor">@color/orbitx_primary</item>
+        <item name="strokeColor">@color/orbitx_primary</item>
+        <item name="android:textAllCaps">false</item>
+    </style>
+
+    <style name="Widget.OrbitX.Button.Text" parent="Widget.Material3.Button.TextButton">
+        <item name="android:textColor">@color/orbitx_primary</item>
+        <item name="android:textAllCaps">false</item>
+    </style>
+
+    <style name="Widget.OrbitX.Button.Icon" parent="Widget.Material3.Button.IconButton">
+        <item name="android:backgroundTint">@color/orbitx_surface</item>
+        <item name="app:tint">@color/orbitx_text</item>
+    </style>
+
+    <style name="Widget.OrbitX.Button.FloatingAction" parent="Widget.Material3.FloatingActionButton">
+        <item name="android:backgroundTint">@color/orbitx_primary</item>
+        <item name="app:tint">@color/color_on_primary</item>
+    </style>
+
+    <!-- CardView Styles -->
+    <style name="Widget.OrbitX.CardView" parent="Widget.Material3.CardView">
+        <item name="android:backgroundTint">@color/orbitx_surface</item>
+        <item name="app:cardBackgroundColor">@color/orbitx_surface</item>
+        <item name="app:cardCornerRadius">12dp</item>
+        <item name="app:cardElevation">4dp</item>
+    </style>
+
+    <!-- EditText Styles -->
+    <style name="Widget.OrbitX.EditText" parent="Widget.Material3.TextInputLayout.OutlinedBox">
+        <item name="android:textColor">@color/orbitx_text</item>
+        <item name="android:textColorHint">@color/color_text_hint</item>
+        <item name="android:backgroundTint">@color/color_input_stroke</item>
+        <item name="boxBackgroundColor">@color/color_input_background</item>
+        <item name="boxStrokeColor">@color/color_input_stroke</item>
+        <item name="hintTextColor">@color/color_text_hint</item>
+    </style>
+
+    <style name="Widget.OrbitX.EditText.Filled" parent="Widget.Material3.TextInputLayout.FilledBox">
+        <item name="android:textColor">@color/orbitx_text</item>
+        <item name="android:textColorHint">@color/color_text_hint</item>
+        <item name="boxBackgroundColor">@color/color_input_background</item>
+        <item name="boxStrokeColor">@color/color_input_stroke</item>
+        <item name="hintTextColor">@color/color_text_hint</item>
+    </style>
+
+    <!-- CheckBox Styles -->
+    <style name="Widget.OrbitX.CheckBox" parent="Widget.Material3.CheckBox">
+        <item name="android:buttonTint">@color/orbitx_primary</item>
+    </style>
+
+    <!-- RadioButton Styles -->
+    <style name="Widget.OrbitX.RadioButton" parent="Widget.Material3.RadioButton">
+        <item name="android:buttonTint">@color/orbitx_primary</item>
+    </style>
+
+    <!-- Switch Styles -->
+    <style name="Widget.OrbitX.Switch" parent="Widget.Material3.Switch">
+        <item name="android:thumbTint">@color/color_switch_thumb</item>
+        <item name="android:trackTint">@color/color_switch_track</item>
+    </style>
+
+    <!-- Chip Styles -->
+    <style name="Widget.OrbitX.Chip" parent="Widget.Material3.Chip">
+        <item name="android:backgroundTint">@color/color_chip_background</item>
+        <item name="android:textColor">@color/color_chip_text</item>
+        <item name="app:chipStrokeColor">@color/color_chip_stroke</item>
+        <item name="app:chipStrokeWidth">1dp</item>
+    </style>
+
+    <style name="Widget.OrbitX.Chip.Filter" parent="Widget.OrbitX.Chip">
+        <item name="app:chipIconTint">@color/orbitx_text_secondary</item>
+    </style>
+
+    <!-- ProgressBar Styles -->
+    <style name="Widget.OrbitX.ProgressBar" parent="Widget.Material3.ProgressBar">
+        <item name="android:indeterminateTint">@color/orbitx_primary</item>
+        <item name="android:progressTint">@color/orbitx_primary</item>
+        <item name="android:progressBackgroundTint">@color/color_progress_background</item>
+    </style>
+
+    <style name="Widget.OrbitX.ProgressBar.Circular" parent="Widget.Material3.ProgressBar.Circular">
+        <item name="android:indeterminateTint">@color/orbitx_primary</item>
+    </style>
+
+    <style name="Widget.OrbitX.ProgressBar.Linear" parent="Widget.Material3.ProgressBar.Linear">
+        <item name="android:progressTint">@color/orbitx_primary</item>
+        <item name="android:progressBackgroundTint">@color/color_progress_background</item>
+    </style>
+
+    <!-- RecyclerView Styles -->
+    <style name="Widget.OrbitX.RecyclerView" parent="Widget.RecyclerView">
+        <item name="android:background">@color/orbitx_background</item>
+        <item name="android:clipToPadding">false</item>
+        <item name="android:padding">8dp</item>
+    </style>
+
+    <!-- Toolbar Styles -->
+    <style name="Widget.OrbitX.Toolbar" parent="Widget.Material3.Toolbar">
+        <item name="android:background">@color/orbitx_surface</item>
+        <item name="android:elevation">4dp</item>
+        <item name="android:theme">@style/Theme.OrbitX</item>
+        <item name="titleTextColor">@color/orbitx_text</item>
+        <item name="subtitleTextColor">@color/orbitx_text_secondary</item>
+    </style>
+
+    <!-- AppBarLayout Styles -->
+    <style name="Widget.OrbitX.AppBarLayout" parent="Widget.Material3.AppBarLayout">
+        <item name="android:background">@color/orbitx_surface</item>
+        <item name="android:elevation">4dp</item>
+    </style>
+
+    <!-- CollapsingToolbarLayout Styles -->
+    <style name="Widget.OrbitX.CollapsingToolbarLayout" parent="Widget.Material3.CollapsingToolbarLayout">
+        <item name="android:background">@color/orbitx_surface</item>
+        <item name="expandedTitleTextColor">@color/orbitx_text</item>
+        <item name="collapsedTitleTextColor">@color/orbitx_text</item>
+    </style>
+
+    <!-- TabLayout Styles -->
+    <style name="Widget.OrbitX.TabLayout" parent="Widget.Material3.TabLayout">
+        <item name="app:tabTextColor">@color/color_tab_text</item>
+        <item name="app:tabSelectedTextColor">@color/color_tab_text_selected</item>
+        <item name="app:tabIndicatorColor">@color/color_tab_indicator</item>
+        <item name="app:tabIndicatorHeight">2dp</item>
+        <item name="app:tabRippleColor">@color/orbitx_primary</item>
+    </style>
+
+    <!-- BottomNavigationView Styles -->
+    <style name="Widget.OrbitX.BottomNavigationView" parent="Widget.Material3.BottomNavigationView">
+        <item name="android:background">@color/color_bottom_nav_background</item>
+        <item name="android:itemTextColor">@color/color_bottom_nav_item</item>
+        <item name="android:itemIconTint">@color/color_bottom_nav_item</item>
+        <item name="app:itemTextColor">@color/color_bottom_nav_item</item>
+        <item name="app:itemIconTint">@color/color_bottom_nav_item</item>
+        <item name="app:itemActiveIndicatorStyle">@style/Widget.OrbitX.BottomNavigationView.ActiveIndicator</item>
+    </style>
+
+    <style name="Widget.OrbitX.BottomNavigationView.ActiveIndicator" parent="Widget.Material3.BottomNavigationView.ActiveIndicator">
+        <item name="android:background">@color/color_bottom_nav_item_selected</item>
+    </style>
+
+    <!-- BottomSheetDialog Styles -->
+    <style name="Widget.OrbitX.BottomSheet" parent="Widget.Design.BottomSheet.Modal">
+        <item name="android:background">@color/orbitx_surface</item>
+        <item name="android:elevation">8dp</item>
+        <item name="behavior_peekHeight">64dp</item>
+    </style>
+
+    <!-- Snackbar Styles -->
+    <style name="Widget.OrbitX.Snackbar" parent="Widget.Material3.Snackbar">
+        <item name="android:background">@color/color_snackbar_background</item>
+        <item name="android:textColor">@color/color_snackbar_text</item>
+        <item name="android:actionTextColor">@color/color_snackbar_action</item>
+    </style>
+
+    <!-- Dialog Styles -->
+    <style name="Widget.OrbitX.Dialog" parent="Theme.OrbitX.Dialog">
+        <item name="android:windowBackground">@color/color_dialog_background</item>
+    </style>
+
+    <style name="Widget.OrbitX.Dialog.Alert" parent="Widget.Material3.Dialog.Alert">
+        <item name="android:background">@color/color_dialog_background</item>
+        <item name="buttonBarPositiveButtonStyle">@style/Widget.OrbitX.Button.Primary</item>
+        <item name="buttonBarNegativeButtonStyle">@style/Widget.OrbitX.Button.Text</item>
+        <item name="buttonBarNeutralButtonStyle">@style/Widget.OrbitX.Button.Text</item>
+    </style>
+
+    <!-- CardView Item Styles -->
+    <style name="Widget.OrbitX.CardView.Item" parent="Widget.OrbitX.CardView">
+        <item name="app:cardCornerRadius">8dp</item>
+        <item name="app:cardElevation">2dp</item>
+        <item name="app:cardBackgroundColor">@color/orbitx_surface</item>
+    </style>
+
+    <!-- ImageView Styles -->
+    <style name="Widget.OrbitX.ImageView" parent="Widget.ImageView">
+        <item name="android:scaleType">centerCrop</item>
+        <item name="android:adjustViewBounds">true</item>
+    </style>
+
+    <style name="Widget.OrbitX.ImageView.Circular" parent="Widget.OrbitX.ImageView">
+        <item name="android:scaleType">centerCrop</item>
+        <item name="android:adjustViewBounds">true</item>
+        <item name="android:background">@drawable/circle_background</item>
+    </style>
+
+    <!-- Text Input Layout Styles -->
+    <style name="Widget.OrbitX.TextInputLayout" parent="Widget.Material3.TextInputLayout">
+        <item name="android:textColorHint">@color/color_text_hint</item>
+        <item name="boxBackgroundMode">outline</item>
+        <item name="boxBackgroundColor">@color/color_input_background</item>
+        <item name="boxStrokeColor">@color/color_input_stroke</item>
+        <item name="boxCornerRadiusTopStart">8dp</item>
+        <item name="boxCornerRadiusTopEnd">8dp</item>
+        <item name="boxCornerRadiusBottomStart">8dp</item>
+        <item name="boxCornerRadiusBottomEnd">8dp</item>
+    </style>
+
+    <!-- RatingBar Styles -->
+    <style name="Widget.OrbitX.RatingBar" parent="Widget.Material3.RatingBar">
+        <item name="android:progressTint">@color/color_rating_star</item>
+        <item name="android:secondaryProgressTint">@color/color_rating_star</item>
+        <item name="android:numStars">5</item>
+        <item name="android:stepSize">0.5</item>
+        <item name="android:isIndicator">false</item>
+    </style>
+
+    <!-- SeekBar Styles -->
+    <style name="Widget.OrbitX.SeekBar" parent="Widget.Material3.SeekBar">
+        <item name="android:progressTint">@color/orbitx_primary</item>
+        <item name="android:secondaryProgressTint">@color/color_progress_background</item>
+        <item name="android:thumbTint">@color/orbitx_primary</item>
+    </style>
+
+    <!-- Spinner Styles -->
+    <style name="Widget.OrbitX.Spinner" parent="Widget.Material3.Spinner">
+        <item name="android:backgroundTint">@color/color_input_background</item>
+        <item name="android:popupBackground">@color/orbitx_surface</item>
+    </style>
+
+    <!-- Dropdown Menu Styles -->
+    <style name="Widget.OrbitX.PopupMenu" parent="Widget.Material3.PopupMenu">
+        <item name="android:popupBackground">@color/orbitx_surface</item>
+    </style>
+
+    <!-- ListView Styles -->
+    <style name="Widget.OrbitX.ListView" parent="Widget.ListView">
+        <item name="android:background">@color/orbitx_background</item>
+        <item name="android:divider">@color/orbitx_divider</item>
+        <item name="android:dividerHeight">1dp</item>
+        <item name="android:footerDividersEnabled">true</item>
+        <item name="android:headerDividersEnabled">true</item>
+    </style>
+
+    <!-- ScrollView Styles -->
+    <style name="Widget.OrbitX.ScrollView" parent="Widget.ScrollView">
+        <item name="android:background">@color/orbitx_background</item>
+        <item name="android:fillViewport">true</item>
+    </style>
+
+    <!-- WebView Styles -->
+    <style name="Widget.OrbitX.WebView" parent="Widget.WebView">
+        <item name="android:background">@color/orbitx_background</item>
+    </style>
+
+    <!-- View Styles -->
+    <style name="Widget.OrbitX.View" parent="Widget.View">
+        <item name="android:background">@android:color/transparent</item>
+    </style>
+
+    <style name="Widget.OrbitX.View.Divider" parent="Widget.OrbitX.View">
+        <item name="android:background">@color/orbitx_divider</item>
+        <item name="android:layout_height">1dp</item>
+    </style>
+
+    <!-- Custom Styles for OrbitX Components -->
+    <style name="Widget.OrbitX.ModCard" parent="Widget.OrbitX.CardView.Item">
+        <item name="app:cardCornerRadius">12dp</item>
+        <item name="app:cardElevation">4dp</item>
+    </style>
+
+    <style name="Widget.OrbitX.VersionCard" parent="Widget.OrbitX.CardView.Item">
+        <item name="app:cardCornerRadius">8dp</item>
+        <item name="app:cardElevation">2dp</item>
+    </style>
+
+    <style name="Widget.OrbitX.ProfileCard" parent="Widget.OrbitX.CardView.Item">
+        <item name="app:cardCornerRadius">16dp</item>
+        <item name="app:cardElevation">6dp</item>
+    </style>
+
+    <style name="Widget.OrbitX.NewsCard" parent="Widget.OrbitX.CardView.Item">
+        <item name="app:cardCornerRadius">8dp</item>
+        <item name="app:cardElevation">2dp</item>
+    </style>
+
+    <!-- OrbitX Specific Button Styles -->
+    <style name="Widget.OrbitX.Button.Launch" parent="Widget.OrbitX.Button.Primary">
+        <item name="android:textSize">18sp</item>
+        <item name="android:paddingVertical">16dp</item>
+        <item name="android:paddingHorizontal">32dp</item>
+    </style>
+
+    <style name="Widget.OrbitX.Button.Install" parent="Widget.OrbitX.Button.Secondary">
+        <item name="android:textSize">16sp</item>
+        <item name="android:paddingVertical">12dp</item>
+        <item name="android:paddingHorizontal">24dp</item>
+    </style>
+
+    <style name="Widget.OrbitX.Button.Remove" parent="Widget.OrbitX.Button.Text">
+        <item name="android:textColor">@color/orbitx_error</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <!-- OrbitX Text Styles -->
+    <style name="Widget.OrbitX.TextView.ModName" parent="Widget.OrbitX.TextView.Primary">
+        <item name="android:textSize">16sp</item>
+        <item name="android:maxLines">2</item>
+        <item name="android:ellipsize">end</item>
+    </style>
+
+    <style name="Widget.OrbitX.TextView.ModDescription" parent="Widget.OrbitX.TextView.Secondary">
+        <item name="android:textSize">12sp</item>
+        <item name="android:maxLines">3</item>
+        <item name="android:ellipsize">end</item>
+    </style>
+
+    <style name="Widget.OrbitX.TextView.ModAuthor" parent="Widget.OrbitX.TextView.Secondary">
+        <item name="android:textSize">12sp</item>
+        <item name="android:maxLines">1</item>
+    </style>
+
+    <style name="Widget.OrbitX.TextView.ModDownloads" parent="Widget.OrbitX.TextView.Hint">
+        <item name="android:textSize">12sp</item>
+        <item name="android:maxLines">1</item>
+    </style>
+</resources>

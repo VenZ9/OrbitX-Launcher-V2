@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    
+    <item
+        android:id="@+id/nav_home"
+        android:icon="@drawable/ic_home"
+        android:title="@string/minecraft_java"
+        android:contentDescription="@string/minecraft_java" />
+
+    <item
+        android:id="@+id/nav_launch"
+        android:icon="@drawable/ic_play"
+        android:title="@string/launch"
+        android:contentDescription="@string/launch" />
+
+    <item
+        android:id="@+id/nav_mods"
+        android:icon="@drawable/ic_mods"
+        android:title="@string/mods"
+        android:contentDescription="@string/mods" />
+
+    <item
+        android:id="@+id/nav_resource_packs"
+        android:icon="@drawable/ic_resource_packs"
+        android:title="@string/resource_packs"
+        android:contentDescription="@string/resource_packs" />
+
+    <item
+        android:id="@+id/nav_shaders"
+        android:icon="@drawable/ic_shaders"
+        android:title="@string/shaders"
+        android:contentDescription="@string/shaders" />
+
+    <item
+        android:id="@+id/nav_settings"
+        android:icon="@drawable/ic_settings"
+        android:title="@string/settings"
+        android:contentDescription="@string/settings" />
+
+</menu>

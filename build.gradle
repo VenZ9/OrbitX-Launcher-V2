@@ -1,0 +1,15 @@
+// OrbitX Launcher - Project Build
+// Top-level build file where you can add configuration options common to all sub-projects/modules.
+
+tasks.named('clean') {
+    delete rootProject.buildDir
+}
+
+// Apply common configuration to all modules
+subprojects {
+    repositories {
+        google()
+        mavenCentral()
+        maven { url 'https://jitpack.io' }
+    }
+}

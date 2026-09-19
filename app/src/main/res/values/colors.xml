@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Primary Colors -->
+    <color name="color_primary">#6200EE</color>
+    <color name="color_primary_variant">#3700B3</color>
+    <color name="color_primary_light">#BB86FC</color>
+    <color name="color_primary_dark">#03DAC6</color>
+    
+    <!-- Secondary Colors -->
+    <color name="color_secondary">#03DAC6</color>
+    <color name="color_secondary_variant">#018786</color>
+    <color name="color_secondary_light">#80CBC4</color>
+    
+    <!-- Accent Colors -->
+    <color name="color_accent">#FF4081</color>
+    <color name="color_accent_light">#FF80AB</color>
+    <color name="color_accent_dark">#C51162</color>
+    
+    <!-- Background Colors -->
+    <color name="color_background">#121212</color>
+    <color name="color_background_light">#1E1E1E</color>
+    <color name="color_background_dark">#000000</color>
+    <color name="color_surface">#1E1E1E</color>
+    <color name="color_surface_light">#2D2D2D</color>
+    <color name="color_surface_dark">#121212</color>
+    
+    <!-- Text Colors -->
+    <color name="color_on_primary">#FFFFFF</color>
+    <color name="color_on_secondary">#000000</color>
+    <color name="color_on_background">#FFFFFF</color>
+    <color name="color_on_surface">#FFFFFF</color>
+    <color name="color_text_primary">#FFFFFF</color>
+    <color name="color_text_secondary">#B3B3B3</color>
+    <color name="color_text_hint">#808080</color>
+    <color name="color_text_disabled">#404040</color>
+    
+    <!-- Error Colors -->
+    <color name="color_error">#FF5252</color>
+    <color name="color_error_light">#FF8A80</color>
+    <color name="color_error_dark">#C51162</color>
+    <color name="color_on_error">#000000</color>
+    
+    <!-- Warning Colors -->
+    <color name="color_warning">#FF9800</color>
+    <color name="color_warning_light">#FFCC80</color>
+    <color name="color_warning_dark">#F57C00</color>
+    
+    <!-- Success Colors -->
+    <color name="color_success">#4CAF50</color>
+    <color name="color_success_light">#80E27E</color>
+    <color name="color_success_dark">#087F23</color>
+    
+    <!-- Info Colors -->
+    <color name="color_info">#2196F3</color>
+    <color name="color_info_light">#64B5F6</color>
+    <color name="color_info_dark">#0D47A1</color>
+    
+    <!-- Border Colors -->
+    <color name="color_border">#404040</color>
+    <color name="color_border_light">#606060</color>
+    <color name="color_border_dark">#202020</color>
+    
+    <!-- Divider Colors -->
+    <color name="color_divider">#333333</color>
+    <color name="color_divider_light">#404040</color>
+    <color name="color_divider_dark">#202020</color>
+    
+    <!-- Overlay Colors -->
+    <color name="color_overlay">#80000000</color>
+    <color name="color_overlay_light">#40000000</color>
+    <color name="color_overlay_dark">#C0000000</color>
+    
+    <!-- Shadow Colors -->
+    <color name="color_shadow">#000000</color>
+    <color name="color_shadow_light">#000000</color>
+    <color name="color_shadow_dark">#000000</color>
+    
+    <!-- Card Colors -->
+    <color name="color_card_background">#1E1E1E</color>
+    <color name="color_card_elevation">#2D2D2D</color>
+    <color name="color_card_stroke">#404040</color>
+    
+    <!-- Button Colors -->
+    <color name="color_button_primary">#6200EE</color>
+    <color name="color_button_primary_disabled">#404040</color>
+    <color name="color_button_secondary">#03DAC6</color>
+    <color name="color_button_secondary_disabled">#404040</color>
+    <color name="color_button_text">#FFFFFF</color>
+    <color name="color_button_text_disabled">#808080</color>
+    
+    <!-- Input Colors -->
+    <color name="color_input_background">#2D2D2D</color>
+    <color name="color_input_stroke">#404040</color>
+    <color name="color_input_text">#FFFFFF</color>
+    <color name="color_input_hint">#808080</color>
+    <color name="color_input_error">#FF5252</color>
+    
+    <!-- Progress Colors -->
+    <color name="color_progress">#6200EE</color>
+    <color name="color_progress_background">#404040</color>
+    <color name="color_progress_indeterminate">#BB86FC</color>
+    
+    <!-- Switch Colors -->
+    <color name="color_switch_thumb">#FFFFFF</color>
+    <color name="color_switch_thumb_disabled">#808080</color>
+    <color name="color_switch_track">#404040</color>
+    <color name="color_switch_track_checked">#6200EE</color>
+    
+    <!-- Checkbox Colors -->
+    <color name="color_checkbox">#404040</color>
+    <color name="color_checkbox_checked">#6200EE</color>
+    <color name="color_checkbox_disabled">#404040</color>
+    
+    <!-- Radio Button Colors -->
+    <color name="color_radio">#404040</color>
+    <color name="color_radio_checked">#6200EE</color>
+    <color name="color_radio_disabled">#404040</color>
+    
+    <!-- Chip Colors -->
+    <color name="color_chip_background">#2D2D2D</color>
+    <color name="color_chip_stroke">#404040</color>
+    <color name="color_chip_text">#FFFFFF</color>
+    <color name="color_chip_selected">#6200EE</color>
+    
+    <!-- Tab Colors -->
+    <color name="color_tab_text">#808080</color>
+    <color name="color_tab_text_selected">#FFFFFF</color>
+    <color name="color_tab_indicator">#6200EE</color>
+    
+    <!-- App Bar Colors -->
+    <color name="color_app_bar">#1E1E1E</color>
+    <color name="color_app_bar_elevation">#2D2D2D</color>
+    <color name="color_app_bar_text">#FFFFFF</color>
+    <color name="color_app_bar_icon">#FFFFFF</color>
+    
+    <!-- Status Bar Colors -->
+    <color name="color_status_bar">#121212</color>
+    <color name="color_status_bar_light">#1E1E1E</color>
+    <color name="color_status_bar_dark">#000000</color>
+    
+    <!-- Navigation Bar Colors -->
+    <color name="color_navigation_bar">#121212</color>
+    <color name="color_navigation_bar_light">#1E1E1E</color>
+    <color name="color_navigation_bar_dark">#000000</color>
+    
+    <!-- Bottom Navigation Colors -->
+    <color name="color_bottom_nav_background">#1E1E1E</color>
+    <color name="color_bottom_nav_item">#808080</color>
+    <color name="color_bottom_nav_item_selected">#FFFFFF</color>
+    
+    <!-- Floating Action Button Colors -->
+    <color name="color_fab">#6200EE</color>
+    <color name="color_fab_ripple">#BB86FC</color>
+    <color name="color_fab_icon">#FFFFFF</color>
+    
+    <!-- Snackbar Colors -->
+    <color name="color_snackbar_background">#333333</color>
+    <color name="color_snackbar_text">#FFFFFF</color>
+    <color name="color_snackbar_action">#BB86FC</color>
+    
+    <!-- Dialog Colors -->
+    <color name="color_dialog_background">#2D2D2D</color>
+    <color name="color_dialog_title">#FFFFFF</color>
+    <color name="color_dialog_message">#B3B3B3</color>
+    <color name="color_dialog_button_positive">#6200EE</color>
+    <color name="color_dialog_button_negative">#808080</color>
+    <color name="color_dialog_button_neutral">#404040</color>
+    
+    <!-- Tooltip Colors -->
+    <color name="color_tooltip_background">#333333</color>
+    <color name="color_tooltip_text">#FFFFFF</color>
+    
+    <!-- Rating Colors -->
+    <color name="color_rating_star">#FFD700</color>
+    <color name="color_rating_star_empty">#404040</color>
+    <color name="color_rating_star_half">#FFD700</color>
+    
+    <!-- Badge Colors -->
+    <color name="color_badge">#FF4081</color>
+    <color name="color_badge_text">#FFFFFF</color>
+    <color name="color_badge_count">#FF4081</color>
+    
+    <!-- Gradient Colors -->
+    <color name="color_gradient_start">#6200EE</color>
+    <color name="color_gradient_end">#03DAC6</color>
+    <color name="color_gradient_horizontal_start">#6200EE</color>
+    <color name="color_gradient_horizontal_end">#03DAC6</color>
+    <color name="color_gradient_vertical_start">#6200EE</color>
+    <color name="color_gradient_vertical_end">#03DAC6</color>
+    
+    <!-- Custom Colors for OrbitX Theme -->
+    <color name="orbitx_primary">#6200EE</color>
+    <color name="orbitx_secondary">#03DAC6</color>
+    <color name="orbitx_accent">#FF4081</color>
+    <color name="orbitx_background">#121212</color>
+    <color name="orbitx_surface">#1E1E1E</color>
+    <color name="orbitx_text">#FFFFFF</color>
+    <color name="orbitx_text_secondary">#B3B3B3</color>
+    <color name="orbitx_divider">#333333</color>
+    <color name="orbitx_success">#4CAF50</color>
+    <color name="orbitx_warning">#FF9800</color>
+    <color name="orbitx_error">#FF5252</color>
+    <color name="orbitx_info">#2196F3</color>
+</resources>
