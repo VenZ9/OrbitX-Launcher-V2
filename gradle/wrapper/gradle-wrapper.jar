@@ -1,6 +1,0 @@
-This is a placeholder. The actual gradle-wrapper.jar will be downloaded automatically by Gradle when you run ./gradlew for the first time.
-
-To generate the wrapper, run:
-  gradle wrapper --gradle-version 8.6
-
-Or download it from: https://github.com/gradle/gradle/raw/master/gradle/wrapper/gradle-wrapper.jar
